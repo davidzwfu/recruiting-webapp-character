@@ -36,6 +36,19 @@
   color: #61dafb;
 }
 
+.App-grid {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+button {
+  cursor: pointer;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
